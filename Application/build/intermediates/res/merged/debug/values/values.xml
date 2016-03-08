@@ -25,6 +25,8 @@
     <string name="fingerprint_hint">请触控指纹传感器</string>
     <string name="fingerprint_not_recognized">指纹失败失败,请重试</string>
     <string name="fingerprint_success">指纹识别成功</string>
+    <string name="fist_text">请输入第一次密码</string>
+    <string name="fistedit_password">请输入绑定指纹的密码</string>
     <string name="intro_message">
         
         

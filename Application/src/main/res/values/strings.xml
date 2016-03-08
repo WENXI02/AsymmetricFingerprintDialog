@@ -38,4 +38,6 @@
     <string name="use_fingerprint_to_authenticate_key" >use_fingerprint_to_authenticate_key</string>
     <string name="password_error">密码错误</string>
     <string name="password_ok">密码正确</string>
+    <string name="fistedit_password">请输入绑定指纹的密码</string>
+    <string name="fist_text">请输入第一次密码</string>
 </resources>

@@ -48,6 +48,8 @@ public abstract class BaseActivity extends Activity {
     @Inject
     SharedPreferences mSharedPreferences;
 
+    @Inject SharedPreferences Fist_SharedPreferences;
+
     /**
      * 将结果返回
      * @param signature
@@ -150,17 +152,23 @@ public abstract class BaseActivity extends Activity {
             // Show the fingerprint dialog. The user has the option to use the fingerprint with
             // crypto, or you can fall back to using a server-side verified password.
             mFragment.setCryptoObject(new FingerprintManager.CryptoObject(mSignature));
-            boolean useFingerprintPreference = mSharedPreferences
-                    .getBoolean(getString(R.string.use_fingerprint_to_authenticate_key),
-                            true);
-            if (useFingerprintPreference) {
-                mFragment.setStage(
-                        FingerprintAuthenticationDialogFragment.Stage.FINGERPRINT);
-            } else {
-                mFragment.setStage(
-                        FingerprintAuthenticationDialogFragment.Stage.PASSWORD);
+            boolean isFist=Fist_SharedPreferences.getBoolean("Fist",true);
+            if (isFist){
+                mFragment.setStage(FingerprintAuthenticationDialogFragment.Stage.FISIST);
+                mFragment.show(getFragmentManager(),DIALOG_FRAGMENT_TAG);
+            }else{
+                boolean useFingerprintPreference = mSharedPreferences
+                        .getBoolean(getString(R.string.use_fingerprint_to_authenticate_key),
+                                true);
+                if (useFingerprintPreference) {
+                    mFragment.setStage(
+                            FingerprintAuthenticationDialogFragment.Stage.FINGERPRINT);
+                } else {
+                    mFragment.setStage(
+                            FingerprintAuthenticationDialogFragment.Stage.PASSWORD);
+                }
+                mFragment.show(getFragmentManager(), DIALOG_FRAGMENT_TAG);
             }
-            mFragment.show(getFragmentManager(), DIALOG_FRAGMENT_TAG);
         } else {
             // This happens if the lock screen has been disabled or or a fingerprint got
             // enrolled. Thus show the dialog to authenticate with their password first

@@ -4,60 +4,33 @@
     api-level="23"
     density="420dpi"
     format="6"
-    timestamp="12143827518337"
+    timestamp="34978987063301"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="224" />
+        duration="164" />
     <task
         name="instant-run-dex"
-        duration="383" />
+        duration="411" />
     <task
         name="instant-run-transform"
-        duration="6" />
+        duration="15" />
     <task
         name="verifier"
-        duration="1" />
+        duration="3" />
 
     <artifact
         location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/reload-dex/debug/classes.dex"
         type="RELOAD_DEX" />
 
-    <build timestamp="8167536899876" >
+    <build timestamp="34878178582375" >
         <artifact
             location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="12012353165758" >
-        <artifact
-            location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7_b29a2139b851d528b161d1dba7ade97fe49ee135/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8_8c9804188d82712a3383703281838f1797ac269a/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6_0e969629dd2de09851409b92f680be98f610df9d/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1_064d28cd55682b9f6af82198f5a176891aff6d9c/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2_21f614f70aca117310a3c5fc5f7fb7d1047e8592/classes.dex"
-            type="DEX" />
-    </build>
     <build
-        timestamp="12082712334456"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/builds/debug/12082712334456/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="12143827518337"
+        timestamp="34978987063301"
         verifier="COMPATIBLE" >
         <artifact
             location="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/reload-dex/debug/classes.dex"

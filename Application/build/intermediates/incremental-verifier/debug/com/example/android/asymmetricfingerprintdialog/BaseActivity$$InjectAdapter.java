@@ -25,6 +25,7 @@ public final class BaseActivity$$InjectAdapter extends Binding<BaseActivity>
   private Binding<java.security.KeyPairGenerator> mKeyPairGenerator;
   private Binding<java.security.Signature> mSignature;
   private Binding<android.content.SharedPreferences> mSharedPreferences;
+  private Binding<android.content.SharedPreferences> Fist_SharedPreferences;
 
   public BaseActivity$$InjectAdapter() {
     super(null, "members/com.example.android.asymmetricfingerprintdialog.BaseActivity", NOT_SINGLETON, BaseActivity.class);
@@ -44,6 +45,7 @@ public final class BaseActivity$$InjectAdapter extends Binding<BaseActivity>
     mKeyPairGenerator = (Binding<java.security.KeyPairGenerator>) linker.requestBinding("java.security.KeyPairGenerator", BaseActivity.class, getClass().getClassLoader());
     mSignature = (Binding<java.security.Signature>) linker.requestBinding("java.security.Signature", BaseActivity.class, getClass().getClassLoader());
     mSharedPreferences = (Binding<android.content.SharedPreferences>) linker.requestBinding("android.content.SharedPreferences", BaseActivity.class, getClass().getClassLoader());
+    Fist_SharedPreferences = (Binding<android.content.SharedPreferences>) linker.requestBinding("android.content.SharedPreferences", BaseActivity.class, getClass().getClassLoader());
   }
 
   /**
@@ -59,6 +61,7 @@ public final class BaseActivity$$InjectAdapter extends Binding<BaseActivity>
     injectMembersBindings.add(mKeyPairGenerator);
     injectMembersBindings.add(mSignature);
     injectMembersBindings.add(mSharedPreferences);
+    injectMembersBindings.add(Fist_SharedPreferences);
   }
 
   /**
@@ -74,6 +77,7 @@ public final class BaseActivity$$InjectAdapter extends Binding<BaseActivity>
     object.mKeyPairGenerator = mKeyPairGenerator.get();
     object.mSignature = mSignature.get();
     object.mSharedPreferences = mSharedPreferences.get();
+    object.Fist_SharedPreferences = Fist_SharedPreferences.get();
   }
 
 }

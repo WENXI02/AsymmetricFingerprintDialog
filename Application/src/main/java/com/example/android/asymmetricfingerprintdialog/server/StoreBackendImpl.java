@@ -67,7 +67,7 @@ public class StoreBackendImpl implements StoreBackend {
     public boolean verify(Transaction transaction, String password) {
         // As this is just a sample, we always assume that the password is right.
         String input_password=mPassword.get(transaction.getUserId());
-        if((!input_password.isEmpty())&& TextUtils.equals(input_password,password)) {
+        if((!TextUtils.isEmpty(input_password))&& TextUtils.equals(input_password,password)) {
             return true;
         }else{
             return false;

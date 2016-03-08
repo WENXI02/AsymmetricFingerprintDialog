@@ -25,6 +25,7 @@ public final class FingerprintAuthenticationDialogFragment$$InjectAdapter extend
   private Binding<FingerprintUiHelper.FingerprintUiHelperBuilder> mFingerprintUiHelperBuilder;
   private Binding<android.view.inputmethod.InputMethodManager> mInputMethodManager;
   private Binding<android.content.SharedPreferences> mSharedPreferences;
+  private Binding<android.content.SharedPreferences> Fist_SharedPreferences;
   private Binding<com.example.android.asymmetricfingerprintdialog.server.StoreBackend> mStoreBackend;
 
   public FingerprintAuthenticationDialogFragment$$InjectAdapter() {
@@ -41,6 +42,7 @@ public final class FingerprintAuthenticationDialogFragment$$InjectAdapter extend
     mFingerprintUiHelperBuilder = (Binding<FingerprintUiHelper.FingerprintUiHelperBuilder>) linker.requestBinding("com.example.android.asymmetricfingerprintdialog.FingerprintUiHelper$FingerprintUiHelperBuilder", FingerprintAuthenticationDialogFragment.class, getClass().getClassLoader());
     mInputMethodManager = (Binding<android.view.inputmethod.InputMethodManager>) linker.requestBinding("android.view.inputmethod.InputMethodManager", FingerprintAuthenticationDialogFragment.class, getClass().getClassLoader());
     mSharedPreferences = (Binding<android.content.SharedPreferences>) linker.requestBinding("android.content.SharedPreferences", FingerprintAuthenticationDialogFragment.class, getClass().getClassLoader());
+    Fist_SharedPreferences = (Binding<android.content.SharedPreferences>) linker.requestBinding("android.content.SharedPreferences", FingerprintAuthenticationDialogFragment.class, getClass().getClassLoader());
     mStoreBackend = (Binding<com.example.android.asymmetricfingerprintdialog.server.StoreBackend>) linker.requestBinding("com.example.android.asymmetricfingerprintdialog.server.StoreBackend", FingerprintAuthenticationDialogFragment.class, getClass().getClassLoader());
   }
 
@@ -53,6 +55,7 @@ public final class FingerprintAuthenticationDialogFragment$$InjectAdapter extend
     injectMembersBindings.add(mFingerprintUiHelperBuilder);
     injectMembersBindings.add(mInputMethodManager);
     injectMembersBindings.add(mSharedPreferences);
+    injectMembersBindings.add(Fist_SharedPreferences);
     injectMembersBindings.add(mStoreBackend);
   }
 
@@ -76,6 +79,7 @@ public final class FingerprintAuthenticationDialogFragment$$InjectAdapter extend
     object.mFingerprintUiHelperBuilder = mFingerprintUiHelperBuilder.get();
     object.mInputMethodManager = mInputMethodManager.get();
     object.mSharedPreferences = mSharedPreferences.get();
+    object.Fist_SharedPreferences = Fist_SharedPreferences.get();
     object.mStoreBackend = mStoreBackend.get();
   }
 

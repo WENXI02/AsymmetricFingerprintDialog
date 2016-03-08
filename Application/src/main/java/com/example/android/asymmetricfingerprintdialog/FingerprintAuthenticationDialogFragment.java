@@ -24,6 +24,7 @@ import android.app.DialogFragment;
 import android.content.SharedPreferences;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -80,6 +81,7 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
     @Inject FingerprintUiHelper.FingerprintUiHelperBuilder mFingerprintUiHelperBuilder;
     @Inject InputMethodManager mInputMethodManager;
     @Inject SharedPreferences mSharedPreferences;
+    @Inject SharedPreferences Fist_SharedPreferences;
     @Inject StoreBackend mStoreBackend;
 
     @Inject
@@ -92,9 +94,9 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
         // Do not create a new Fragment when the Activity is re-created such as orientation changes.
         setRetainInstance(true);
         setStyle(DialogFragment.STYLE_NORMAL, android.R.style.Theme_Material_Light_Dialog);
-
         // We register a new user account here. Real apps should do this with proper UIs.
         enroll();
+
     }
 
     @Override
@@ -116,7 +118,19 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
             public void onClick(View view) {
                 if (mStage == Stage.FINGERPRINT) {
                     goToBackup();
-                } else {
+                } else if (mStage==Stage.FISIST) {
+                    String password=mPassword.getText().toString();
+                    SharedPreferences.Editor editor=Fist_SharedPreferences.edit();
+                    editor.putBoolean("Fist",false);
+                    editor.putString("User_password",password);
+                    editor.apply();
+                    // We register a new user account here. Real apps should do this with proper UIs.
+                    enroll();
+                    mPassword.setText("");
+                    mStage=Stage.FINGERPRINT;
+                    updateStage();
+
+                }else{
                     verifyPassword();
                 }
             }
@@ -216,7 +230,8 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
             //通过公钥的编码格式得到X509，X509是根据公钥的编码格式得到ASN.1 编码
             X509EncodedKeySpec spec = new X509EncodedKeySpec(publicKey.getEncoded());
             PublicKey verificationKey = factory.generatePublic(spec);
-            mStoreBackend.enroll("user", "password", verificationKey);//将公钥传给服务器
+            String password=Fist_SharedPreferences.getString("User_password","");
+            mStoreBackend.enroll("user", password, verificationKey);//将公钥传给服务器
         } catch (KeyStoreException | CertificateException | NoSuchAlgorithmException |
                 IOException | InvalidKeySpecException  e) {
             e.printStackTrace();
@@ -229,7 +244,15 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
      */
     private void verifyPassword() {
         Transaction transaction = new Transaction("user", 1, new SecureRandom().nextLong());
-        if (!mStoreBackend.verify(transaction, mPassword.getText().toString())) {
+        String password=mPassword.getText().toString();
+        if (TextUtils.isEmpty(password))
+        {
+
+            return ;
+
+        }
+        Log.e("e",password);
+        if (!mStoreBackend.verify(transaction, password)) {
             Toast.makeText(mActivity,R.string.password_error,Toast.LENGTH_SHORT).show();
             return;
         }else{
@@ -262,6 +285,14 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
 
     private void updateStage() {
         switch (mStage) {
+            case FISIST:
+                mSecondDialogButton.setText(R.string.ok);
+                mCancelButton.setText(R.string.cancel);
+                mFingerprintContent.setVisibility(View.GONE);
+                mBackupContent.setVisibility(View.VISIBLE);
+                mPassword.setHint(R.string.fistedit_password);
+                mPasswordDescriptionTextView.setText(R.string.fist_text);
+                break;
             case FINGERPRINT:
                 mCancelButton.setText(R.string.cancel);
                 mSecondDialogButton.setText(R.string.use_password);
@@ -271,6 +302,8 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
             case NEW_FINGERPRINT_ENROLLED:
                 // Intentional fall through
             case PASSWORD:
+                mPassword.setHint(R.string.password);
+                mPasswordDescriptionTextView.setText(R.string.password);
                 mCancelButton.setText(R.string.cancel);
                 mSecondDialogButton.setText(R.string.ok);
                 mFingerprintContent.setVisibility(View.GONE);
@@ -281,6 +314,7 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
                     mUseFingerprintFutureCheckBox.setVisibility(View.VISIBLE);
                 }
                 break;
+
         }
     }
 
@@ -327,6 +361,7 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
      * Enumeration to indicate which authentication method the user is trying to authenticate with.
      */
     public enum Stage {
+        FISIST,
         FINGERPRINT,
         NEW_FINGERPRINT_ENROLLED,
         PASSWORD
