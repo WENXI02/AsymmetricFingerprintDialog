@@ -42,6 +42,8 @@ before proceeding some actions such as purchasing an item. This version uses asy
     <string name="ok">提交</string>
     <string name="password">请输入密码</string>
     <string name="password_description">请输入密码</string>
+    <string name="password_error">密码错误</string>
+    <string name="password_ok">密码正确</string>
     <string name="purchase">Purchase</string>
     <string name="purchase_done">提交成功</string>
     <string name="purchase_fail">提交失败</string>

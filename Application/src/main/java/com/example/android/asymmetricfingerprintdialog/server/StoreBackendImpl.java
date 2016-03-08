@@ -17,6 +17,8 @@
 package com.example.android.asymmetricfingerprintdialog.server;
 
 
+import android.text.TextUtils;
+
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.PublicKey;
@@ -33,6 +35,7 @@ import java.util.Set;
 public class StoreBackendImpl implements StoreBackend {
 
     private final Map<String, PublicKey> mPublicKeys = new HashMap<>();
+    private final Map<String,String>mPassword=new HashMap<>();
     private final Set<Transaction> mReceivedTransactions = new HashSet<>();
 
     @Override
@@ -63,13 +66,21 @@ public class StoreBackendImpl implements StoreBackend {
     @Override
     public boolean verify(Transaction transaction, String password) {
         // As this is just a sample, we always assume that the password is right.
-        return true;
+        String input_password=mPassword.get(transaction.getUserId());
+        if((!input_password.isEmpty())&& TextUtils.equals(input_password,password)) {
+            return true;
+        }else{
+            return false;
+        }
     }
 
     @Override
     public boolean enroll(String userId, String password, PublicKey publicKey) {
         if (publicKey != null) {
             mPublicKeys.put(userId, publicKey);
+        }
+        if (!password.isEmpty()){
+            mPassword.put(userId,password);
         }
         // We just ignore the provided password here, but in real life, it is registered to the
         // backend.

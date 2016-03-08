@@ -36,6 +36,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.security.KeyFactory;
@@ -229,7 +230,10 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
     private void verifyPassword() {
         Transaction transaction = new Transaction("user", 1, new SecureRandom().nextLong());
         if (!mStoreBackend.verify(transaction, mPassword.getText().toString())) {
+            Toast.makeText(mActivity,R.string.password_error,Toast.LENGTH_SHORT).show();
             return;
+        }else{
+            Toast.makeText(mActivity,R.string.password_ok,Toast.LENGTH_SHORT).show();
         }
         if (mStage == Stage.NEW_FINGERPRINT_ENROLLED) {
             SharedPreferences.Editor editor = mSharedPreferences.edit();

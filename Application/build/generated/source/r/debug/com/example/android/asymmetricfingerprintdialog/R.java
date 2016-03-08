@@ -192,14 +192,16 @@ containing a value of this type.
         public static final int ok=0x7f09000c;
         public static final int password=0x7f09000d;
         public static final int password_description=0x7f09000e;
-        public static final int purchase=0x7f09000f;
-        public static final int purchase_done=0x7f090010;
-        public static final int purchase_fail=0x7f090011;
-        public static final int sign_in=0x7f090012;
-        public static final int use_fingerprint_in_future=0x7f090013;
-        public static final int use_fingerprint_to_authenticate_key=0x7f090014;
-        public static final int use_fingerprint_to_authenticate_title=0x7f090015;
-        public static final int use_password=0x7f090016;
+        public static final int password_error=0x7f09000f;
+        public static final int password_ok=0x7f090010;
+        public static final int purchase=0x7f090011;
+        public static final int purchase_done=0x7f090012;
+        public static final int purchase_fail=0x7f090013;
+        public static final int sign_in=0x7f090014;
+        public static final int use_fingerprint_in_future=0x7f090015;
+        public static final int use_fingerprint_to_authenticate_key=0x7f090016;
+        public static final int use_fingerprint_to_authenticate_title=0x7f090017;
+        public static final int use_password=0x7f090018;
     }
     public static final class style {
         public static final int AppTheme=0x7f070002;

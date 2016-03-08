@@ -1,26 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_slice.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="271cba2eae704dbe55f5475e7fefc1f851e57f68">
-        <dex dex="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/5/main_slice_13234fd4b731ad9688b9f2c29f492662f10152c4/classes.dex" />
-    </item>
-    <item
-        jar="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/instantRunSlicer/debug/jars/1/1a/dependencies.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f79183b1b1eb025985fccb573d3c2973dd394bcb">
-        <dex dex="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/1a/dependencies_e90fb43c81b6383b98d0625d353797d608dec52b/classes.dex" />
-    </item>
-    <item
-        jar="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/instantRunSlicer/debug/jars/1/5/main_sliceb.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="673da711e3a4ff4ff8273a8729f51146fb8581ec">
-        <dex dex="/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/transforms/dex/debug/folders/1000/5/main_sliceb_42fe297ce2ecd10359f32528bca080c2ea8674cb/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />

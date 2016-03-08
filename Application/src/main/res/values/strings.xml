@@ -36,4 +36,6 @@
     <string name="use_fingerprint_in_future">稍后使用指纹识别</string>
     <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
     <string name="use_fingerprint_to_authenticate_key" >use_fingerprint_to_authenticate_key</string>
+    <string name="password_error">密码错误</string>
+    <string name="password_ok">密码正确</string>
 </resources>
