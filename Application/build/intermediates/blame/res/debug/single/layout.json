@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/layout/fingerprint_dialog_backup.xml",
+        "source": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/layout/fingerprint_dialog_backup.xml"
+    },
+    {
+        "merged": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/layout/fingerprint_dialog_content.xml",
+        "source": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/layout/fingerprint_dialog_content.xml"
+    },
+    {
+        "merged": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/layout/fingerprint_dialog_container.xml",
+        "source": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/layout/fingerprint_dialog_container.xml"
+    }
+]

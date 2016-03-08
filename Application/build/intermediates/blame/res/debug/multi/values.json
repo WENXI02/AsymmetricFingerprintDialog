@@ -1,0 +1,608 @@
+[
+    {
+        "outputFile": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 116,
+                    "endColumn": 61,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 61,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 63,
+                    "endOffset": 299
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 304,
+                    "endColumn": 46,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endColumn": 47,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 47,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1069,
+                    "endColumn": 58,
+                    "endOffset": 1123
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1128,
+                    "endColumn": 56,
+                    "endOffset": 1180
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1185,
+                    "endColumn": 53,
+                    "endOffset": 1234
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1239,
+                    "endColumn": 69,
+                    "endOffset": 1304
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1309,
+                    "endColumn": 42,
+                    "endOffset": 1347
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1352,
+                    "endColumn": 43,
+                    "endOffset": 1391
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1396,
+                    "endColumn": 44,
+                    "endOffset": 1436
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1441,
+                    "endColumn": 42,
+                    "endOffset": 1479
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1484,
+                    "endColumn": 41,
+                    "endOffset": 1521
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1526,
+                    "endColumn": 67,
+                    "endOffset": 1589
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1594,
+                    "endColumn": 52,
+                    "endOffset": 1642
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1647,
+                    "endColumn": 46,
+                    "endOffset": 1689
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/base-strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 647,
+                        "endColumn": 46,
+                        "endOffset": 689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1694,
+                    "endColumn": 37,
+                    "endOffset": 1727
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1732,
+                    "endColumn": 59,
+                    "endOffset": 1787
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1792,
+                    "endColumn": 53,
+                    "endOffset": 1841
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1846,
+                    "endColumn": 65,
+                    "endOffset": 1907
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1912,
+                    "endColumn": 54,
+                    "endOffset": 1962
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1967,
+                    "endLine": 36,
+                    "endColumn": 13,
+                    "endOffset": 2256
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/base-strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2261,
+                    "endColumn": 99,
+                    "endOffset": 2356
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2361,
+                    "endColumn": 45,
+                    "endOffset": 2402
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2407,
+                    "endColumn": 64,
+                    "endOffset": 2467
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2472,
+                    "endColumn": 87,
+                    "endOffset": 2555
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2560,
+                    "endColumn": 33,
+                    "endOffset": 2589
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2594,
+                    "endColumn": 42,
+                    "endOffset": 2632
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2637,
+                    "endColumn": 54,
+                    "endOffset": 2687
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2692,
+                    "endColumn": 45,
+                    "endOffset": 2733
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2738,
+                    "endColumn": 46,
+                    "endOffset": 2780
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2785,
+                    "endColumn": 46,
+                    "endOffset": 2827
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2832,
+                    "endColumn": 40,
+                    "endOffset": 2868
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2873,
+                    "endColumn": 62,
+                    "endOffset": 2931
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2936,
+                    "endColumn": 99,
+                    "endOffset": 3031
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3036,
+                    "endColumn": 97,
+                    "endOffset": 3129
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3134,
+                    "endColumn": 45,
+                    "endOffset": 3175
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3180,
+                    "endColumn": 50,
+                    "endOffset": 3226
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3231,
+                    "endLine": 60,
+                    "endColumn": 12,
+                    "endOffset": 3692
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3697,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 3818
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 3823,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 3946
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 3951,
+                    "endColumn": 59,
+                    "endOffset": 4006
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 4011,
+                    "endColumn": 52,
+                    "endOffset": 4059
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4064,
+                    "endColumn": 26,
+                    "endOffset": 4086
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4091,
+                    "endLine": 73,
+                    "endColumn": 12,
+                    "endOffset": 4282
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 4287,
+                    "endLine": 79,
+                    "endColumn": 12,
+                    "endOffset": 4560
+                },
+                "from": {
+                    "file": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/values/template-styles.xml"
+                }
+            }
+        ]
+    }
+]

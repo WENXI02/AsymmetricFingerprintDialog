@@ -1,0 +1,21 @@
+digraph G1 {
+  concentrate = true;
+  BaseActivity -> FingerprintAuthenticationDialogFragment;
+  BaseActivity -> KeyguardManager;
+  BaseActivity -> SharedPreferences;
+  BaseActivity -> FingerprintManager;
+  BaseActivity -> KeyPairGenerator;
+  BaseActivity -> KeyStore;
+  BaseActivity -> Signature;
+  n2 [label="FingerprintUiHelper$FingerprintUiHelperBuilder"];
+  FingerprintAuthenticationDialogFragment -> n2;
+  FingerprintAuthenticationDialogFragment -> SharedPreferences;
+  FingerprintAuthenticationDialogFragment -> InputMethodManager;
+  FingerprintAuthenticationDialogFragment -> StoreBackend;
+  FingerprintManager -> Context;
+  n2 -> FingerprintManager;
+  InputMethodManager -> Context;
+  KeyguardManager -> Context;
+  SharedPreferences -> Context;
+  Signature -> KeyStore;
+}

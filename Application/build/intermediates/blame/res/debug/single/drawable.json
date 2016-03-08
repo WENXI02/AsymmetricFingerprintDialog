@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/drawable/ic_fingerprint_error.xml",
+        "source": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/drawable/ic_fingerprint_error.xml"
+    },
+    {
+        "merged": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/drawable/card.xml",
+        "source": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/drawable/card.xml"
+    },
+    {
+        "merged": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/build/intermediates/res/merged/debug/drawable/ic_fingerprint_success.xml",
+        "source": "/Users/wenxi/android /android-AsymmetricFingerprintDialog-master/Application/src/main/res/drawable/ic_fingerprint_success.xml"
+    }
+]
